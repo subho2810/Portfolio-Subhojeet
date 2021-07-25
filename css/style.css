@@ -1,0 +1,37 @@
+#intro,
+#project {
+  color: white;
+  text-align: center;
+}
+
+.github-icon {
+  font-size: 48px;
+  color: rgb(66, 20, 192);
+}
+.linkedIn-icon {
+  font-size: 48px;
+  color: rgb(24, 24, 131);
+}
+.fb-icon {
+  font-size: 50px;
+  color: rgba(32, 90, 214, 0.767);
+}
+.ig-icon {
+  font-size: 50px;
+  color: rgba(248, 6, 228, 0.685);
+  text-shadow: 2px 3px 6px rgba(255, 230, 0, 0.89);
+}
+.ic i {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(80%);
+}
+.ic i:hover {
+  filter: grayscale(0);
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
